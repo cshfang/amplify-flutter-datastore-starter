@@ -32,6 +32,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   amplify_flutter: ^0.1.4
+  amplify_api: ^0.1.4
+  amplify_auth_cognito: ^0.1.4
   amplify_datastore: ^0.1.4
 
 # For information on the generic Dart part of this file, see the
