@@ -1,0 +1,13 @@
+{
+  "projectName": "amplified_todo",
+  "version": "2.0",
+  "frontend": "flutter",
+  "providers": [
+    "awscloudformation"
+  ],
+  "flutter": {
+    "config": {
+      "ResDir": "./lib/"
+    }
+  }
+}
