@@ -9,7 +9,7 @@ class TodoItem extends StatelessWidget {
   final double iconSize = 24.0;
   final Todo todo;
 
-  TodoItem({this.todo});
+  TodoItem({required this.todo});
 
   void _deleteTodo(BuildContext context) async {
     try {

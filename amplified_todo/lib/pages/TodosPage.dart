@@ -21,14 +21,14 @@ class TodosPage extends StatefulWidget {
 }
 
 class _TodosPageState extends State<TodosPage> {
-  // subscription to Todo model update events
-  StreamSubscription _subscription;
+  // subscription to Todo model update events - to be initialized at runtime
+  late StreamSubscription _subscription;
 
-  // for tracking loading ui state
-  bool _isLoading;
+  // loading ui state - initially set to a loading state
+  bool _isLoading = true;
 
-  // list of Todos
-  List<Todo> _todos;
+  // list of Todos - initially empty
+  List<Todo> _todos = [];
 
   // amplify plugins
   final AmplifyAPI _apiPlugin = AmplifyAPI();
@@ -38,12 +38,6 @@ class _TodosPageState extends State<TodosPage> {
 
   @override
   void initState() {
-    // initialize loading ui state to a loading state
-    _isLoading = true;
-
-    // initialize Todos list as an empty list
-    _todos = [];
-
     // kick off app initialization
     _initializeApp();
 
