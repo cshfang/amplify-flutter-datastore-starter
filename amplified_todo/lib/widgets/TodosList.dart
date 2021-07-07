@@ -8,7 +8,7 @@ import 'TodoItem.dart';
 class TodosList extends StatelessWidget {
   final List<Todo> todos;
 
-  TodosList({this.todos});
+  TodosList({required this.todos});
 
   @override
   Widget build(BuildContext context) {
