@@ -3,14 +3,13 @@ import 'dart:async';
 // flutter and ui libraries
 import 'package:flutter/material.dart';
 // amplify packages we will need to use
-import 'package:amplify_flutter/amplify.dart';
+import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:amplify_api/amplify_api.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'package:amplify_datastore/amplify_datastore.dart';
-// amplify configuration and models that should have been generated for you
+// amplify configuration and model provider (should have been generated for you)
 import '../amplifyconfiguration.dart';
 import '../models/ModelProvider.dart';
-import '../models/Todo.dart';
 // presentational widgets
 import '../pages/AddTodoForm.dart';
 import '../widgets/TodosList.dart';
