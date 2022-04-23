@@ -1,9 +1,9 @@
 // flutter and ui libraries
 import 'package:flutter/material.dart';
 // amplify packages we will need to use
-import 'package:amplify_flutter/amplify.dart';
-// amplify models that should have been generated for you
-import '../models/Todo.dart';
+import 'package:amplify_flutter/amplify_flutter.dart';
+// amplify model provider (should have been generated for you)
+import '../models/ModelProvider.dart';
 
 class TodoItem extends StatelessWidget {
   final double iconSize = 24.0;

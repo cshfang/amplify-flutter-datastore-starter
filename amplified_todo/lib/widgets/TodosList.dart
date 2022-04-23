@@ -1,7 +1,7 @@
 // flutter and ui libraries
 import 'package:flutter/material.dart';
-// amplify models that should have been generated for you
-import '../models/Todo.dart';
+// amplify model provider (should have been generated for you)
+import '../models/ModelProvider.dart';
 // presentational widgets
 import 'TodoItem.dart';
 
